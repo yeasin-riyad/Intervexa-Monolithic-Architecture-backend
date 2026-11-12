@@ -7,6 +7,10 @@
     "start": "node src/server.js",
     "dev": "nodemon src/server.js"
   },
+
+  "engines": {
+    "node": "22.x"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -31,5 +35,16 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
+  },
+
+   "overrides": {
+    "jwks-rsa": {
+      "jose": "5.10.0"
+    }
   }
 }
+
+  
+
+
+
