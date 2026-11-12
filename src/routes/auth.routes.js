@@ -13,7 +13,7 @@ import { isAuthenticated } from "../middlewares/auth.middleware.js";
 const authRouter = express.Router();
 
 // Public routes
-authRouter.post("/google", googleAuth);
+authRouter.post("/login", googleAuth);
 authRouter.post("/demo-login", demoLogin);
 
 // Logout only clears the cookie, so authentication middleware isn't required
