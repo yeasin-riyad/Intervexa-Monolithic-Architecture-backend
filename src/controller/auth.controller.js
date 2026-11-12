@@ -8,10 +8,13 @@ import { generateToken } from "../utils/token.js";
 // COOKIE CONFIGURATION
 // ==============================
 
+const isProduction = process.env.NODE_ENV === "production";
+
 const cookieOptions = {
   httpOnly: true,
-  secure: process.env.NODE_ENV === "production",
-  sameSite: "lax",
+  secure: isProduction,
+  sameSite: isProduction ? "none" : "lax",
+  path: "/",
   maxAge: 7 * 24 * 60 * 60 * 1000,
 };
 
@@ -107,13 +110,13 @@ export const logout = async (req, res) => {
       httpOnly: cookieOptions.httpOnly,
       secure: cookieOptions.secure,
       sameSite: cookieOptions.sameSite,
+      path: "/",
     });
 
     return res.status(200).json({
       success: true,
       message: "Logout successful.",
     });
-
   } catch (error) {
     console.error("Logout Error:", error);
 
