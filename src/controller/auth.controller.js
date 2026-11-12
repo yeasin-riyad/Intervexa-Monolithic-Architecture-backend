@@ -202,7 +202,7 @@ export const useCoins = async (req, res) => {
 
 export const demoLogin = async (req, res) => {
   try {
-    const firebaseUid = process.env.DEMO_FIREBASE_UID;
+    const firebaseUid = process.env.FIREBASEUID;
 
     if (!firebaseUid) {
       return res.status(500).json({
