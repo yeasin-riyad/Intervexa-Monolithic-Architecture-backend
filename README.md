@@ -1,362 +1,216 @@
-# IntervexaAI
 
-```{=html}
-<p align="center">
-```
-`<img src="docs/assets/intervexaai-logo.png" alt="IntervexaAI logo" width="150" />`{=html}
-```{=html}
-</p>
-```
-```{=html}
-<h3 align="center">
-```
-Your AI-powered partner for smarter interview preparation.
-```{=html}
-</h3>
-```
-```{=html}
-<p align="center">
-```
-Practice interviews, understand your strengths, improve your skills, and
-build a personalised roadmap with a team of specialised AI agents.
-```{=html}
-</p>
-```
-```{=html}
-<p align="center">
-```
-`<img src="https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge" alt="Project status: in development" />`{=html}
-`<img src="https://img.shields.io/badge/AI-Multi--Agent-blueviolet?style=for-the-badge" alt="Multi-agent AI" />`{=html}
-`<img src="https://img.shields.io/badge/Architecture-Microservices-blue?style=for-the-badge" alt="Microservices architecture" />`{=html}
-```{=html}
-</p>
-```
+<div align="center">
 
-------------------------------------------------------------------------
+  <img src="docs/screenshots/intervexaai-home.png" alt="IntervexaAI Logo" width="140" />
 
-## 📌 About
+  # IntervexaAI
 
-**IntervexaAI** is an AI-powered interview preparation platform designed
-to help candidates prepare with confidence. It brings together multiple
-specialised AI agents to support the complete preparation journey---from
-resume analysis and realistic interview practice to actionable feedback
-and personalised learning roadmaps.
+  ### AI-Powered Interview Preparation Platform
 
-The platform is being built with a modern, scalable architecture using
-React, Node.js, LangChain, LangGraph, MongoDB, Redis, Docker, and AWS.
+  **Prepare Smarter. Practice Better. Get Hired.**
 
-> **Project status:** IntervexaAI is under active development. Features,
-> architecture, and screenshots may change as the project evolves.
+  An intelligent interview preparation platform powered by multiple specialised AI agents. Analyse resumes, conduct realistic interviews, receive personalised feedback, and build learning roadmaps.
 
-## ✨ Key Features
+  ![Status](https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge)
+  ![AI](https://img.shields.io/badge/AI-Multi--Agent-purple?style=for-the-badge)
+  ![Architecture](https://img.shields.io/badge/Architecture-Microservices-blue?style=for-the-badge)
 
-  -----------------------------------------------------------------------
-  Feature                             Description
-  ----------------------------------- -----------------------------------
-  🤖 **AI Interview Agent**           Conducts interactive, role-focused
-                                      interview sessions and asks
-                                      relevant follow-up questions.
+</div>
 
-  📄 **Resume Agent**                 Analyses uploaded resumes, extracts
-                                      key information, and highlights
-                                      strengths and improvement areas.
+---
 
-  📊 **AI Feedback Agent**            Reviews interview performance and
-                                      provides structured, actionable
-                                      feedback.
+## 📌 About IntervexaAI
 
-  🧭 **Roadmap Agent**                Creates personalised learning
-                                      roadmaps based on a candidate's
-                                      goals, skills, and resume.
+**IntervexaAI** is a modern AI-powered interview preparation platform designed to help developers and job seekers improve their technical interview skills.
 
-  🔐 **Secure Authentication**        Supports secure sign-in with
-                                      Firebase Authentication.
+The platform uses multiple specialised AI agents to automate and personalise the interview preparation process.
 
-  📈 **Modern Dashboard**             Brings interviews, resume insights,
-                                      feedback, and learning progress
-                                      together.
+Instead of relying on a single AI assistant, IntervexaAI uses dedicated agents for different responsibilities, including interview conduction, resume analysis, performance evaluation, and personalised learning roadmap generation.
 
-  🧩 **Multi-Agent Workflows**        Uses specialised AI agents
-                                      coordinated through modern AI
-                                      workflow patterns.
+Our goal is to make interview preparation smarter, more personalised, and more accessible.
 
-  ⚡ **Redis Caching**                Supports faster access to
-                                      frequently requested data and
-                                      computationally expensive results.
+## ✨ Features
 
-  🐳 **Containerised Services**       Uses Docker to package services
-                                      consistently across development and
-                                      deployment environments.
+### 🤖 AI Interview Agent
+- Conducts interactive AI-powered interviews.
+- Generates role-specific interview questions.
+- Asks dynamic follow-up questions.
+- Evaluates candidate responses.
+- Supports realistic interview experiences.
 
-  ☁️ **Cloud-ready Architecture**     Designed with scalable deployment
-                                      on AWS in mind.
-  -----------------------------------------------------------------------
+### 📄 Resume Agent
+- Upload and analyse resumes.
+- Extract relevant candidate information.
+- Identify technical skills and experience.
+- Analyse strengths and weaknesses.
+- Provide resume improvement suggestions.
+
+### 📊 AI Feedback Agent
+- Analyses interview performance.
+- Evaluates technical responses.
+- Identifies strengths and weaknesses.
+- Generates personalised improvement suggestions.
+- Provides actionable performance feedback.
+
+### 🧭 Roadmap Agent
+- Generates personalised learning roadmaps.
+- Identifies missing technical skills.
+- Creates structured learning plans.
+- Recommends topics to improve.
+- Helps candidates achieve career goals.
+
+### 🔐 Authentication
+- Secure authentication with Firebase.
+- Protected application routes.
+- User-specific data management.
+
+### 📈 Modern Dashboard
+- Centralised dashboard.
+- Interview history.
+- Resume analysis reports.
+- Performance insights.
+- Learning roadmap tracking.
+
+### ⚡ Infrastructure
+- Multi-agent AI architecture.
+- Scalable backend services.
+- Redis caching.
+- Dockerised services.
+- Cloud-ready architecture using AWS.
+
+---
 
 ## 🖼️ Screenshots
 
-Screenshots will be added as the UI is finalised. Replace each
-placeholder with your own image and update the paths if needed.
+> Screenshots are placeholders. Replace them with actual application screenshots when available.
+
+### Home Page
+
+<p align="center">
+  <img src="docs/screenshots/intervexaai-home.png" alt="IntervexaAI Home Page" width="90%" />
+</p>
 
 ### Dashboard
 
-```{=html}
-<!-- Replace the placeholder below with your dashboard screenshot. -->
-```
-```{=html}
 <p align="center">
-```
-`<img src="docs/screenshots/dashboard.png" alt="IntervexaAI dashboard screenshot placeholder" width="90%" />`{=html}
-```{=html}
+  <img src="docs/screenshots/dashboard.png" alt="IntervexaAI Dashboard" width="90%" />
 </p>
-```
+
 ### AI Interview
 
-```{=html}
-<!-- Replace the placeholder below with your AI interview screenshot. -->
-```
-```{=html}
 <p align="center">
-```
-`<img src="docs/screenshots/ai-interview.png" alt="AI interview screenshot placeholder" width="90%" />`{=html}
-```{=html}
+  <img src="docs/screenshots/ai-interview.png" alt="AI Interview Interface" width="90%" />
 </p>
-```
+
 ### Resume Analysis
 
-```{=html}
-<!-- Replace the placeholder below with your resume analysis screenshot. -->
-```
-```{=html}
 <p align="center">
-```
-`<img src="docs/screenshots/resume-analysis.png" alt="Resume analysis screenshot placeholder" width="90%" />`{=html}
-```{=html}
+  <img src="docs/screenshots/resume-analysis.png" alt="Resume Analysis" width="90%" />
 </p>
-```
-### Personalised Learning Roadmap
 
-```{=html}
-<!-- Replace the placeholder below with your roadmap screenshot. -->
-```
-```{=html}
+### Learning Roadmap
+
 <p align="center">
-```
-`<img src="docs/screenshots/learning-roadmap.png" alt="Learning roadmap screenshot placeholder" width="90%" />`{=html}
-```{=html}
+  <img src="docs/screenshots/learning-roadmap.png" alt="Personalised Learning Roadmap" width="90%" />
 </p>
-```
-### Feedback Report
 
-```{=html}
-<!-- Replace the placeholder below with your feedback report screenshot. -->
-```
-```{=html}
+### AI Feedback
+
 <p align="center">
-```
-`<img src="docs/screenshots/feedback-report.png" alt="Feedback report screenshot placeholder" width="90%" />`{=html}
-```{=html}
+  <img src="docs/screenshots/feedback-report.png" alt="AI Feedback Report" width="90%" />
 </p>
-```
-## 🛠️ Tech Stack
 
-### Frontend
+---
 
--   **React.js** --- component-based user interface
--   **JavaScript** --- application logic and interactions
+## 🛠️ Technology Stack
 
-### Backend & Data
+| Technology | Purpose |
+|---|---|
+| React.js | Frontend development |
+| Node.js | Backend runtime |
+| Express.js | REST API development |
+| MongoDB | Database |
+| Redis | Caching |
+| LangChain | AI application development |
+| LangGraph | Multi-agent workflows |
+| Firebase Authentication | User authentication |
+| Docker | Containerisation |
+| Microservices | Distributed architecture |
+| AWS | Cloud infrastructure |
 
--   **Node.js** --- JavaScript runtime
--   **Express.js** --- API and service layer
--   **MongoDB** --- persistent application data
--   **Redis** --- caching and fast data access
+---
 
-### AI & Agent Workflows
+## 🧠 AI Multi-Agent Architecture
 
--   **LangChain** --- LLM integrations and agent building blocks
--   **LangGraph** --- stateful, multi-step AI workflows
--   **Specialised AI agents** --- interview, resume, feedback, and
-    roadmap tasks
+IntervexaAI uses specialised AI agents to handle different interview preparation tasks.
 
-### Infrastructure & Authentication
+Each agent has its own responsibility and can participate in a larger AI workflow.
 
--   **Docker** --- containerisation
--   **Microservices** --- independently organised application services
--   **Firebase Authentication** --- identity and sign-in
--   **AWS** --- cloud infrastructure and deployment target
+### Agent Responsibilities
 
-## 🧠 How It Works
+| Agent | Responsibility |
+|---|---|
+| Interview Agent | Conducts AI-powered interviews |
+| Resume Agent | Analyses uploaded resumes |
+| Feedback Agent | Evaluates interview performance |
+| Roadmap Agent | Generates personalised learning plans |
 
-At a high level, IntervexaAI connects a candidate's goals and
-preparation data to specialised AI workflows.
+### System Architecture
 
-1.  **Sign in** securely to the platform.
-2.  **Add a resume** (optional, depending on the workflow) so the
-    platform can understand your experience and skills.
-3.  **Practise an interview** with the AI Interview Agent.
-4.  **Review feedback** generated from the interview and relevant
-    candidate context.
-5.  **Build a learning plan** with the Roadmap Agent to focus on the
-    next skills to improve.
-
-``` mermaid
+```mermaid
 flowchart TD
-    A[Candidate] --> B[React.js Frontend]
-    B --> C[Backend API / Gateway]
-    C --> D[Authentication]
-    C --> E[AI Workflow Layer]
+    A[User] --> B[React Frontend]
+
+    B --> C[Backend API]
+
+    C --> D[Firebase Authentication]
+
+    C --> E[AI Agent Orchestrator]
+
     E --> F[Interview Agent]
     E --> G[Resume Agent]
     E --> H[Feedback Agent]
     E --> I[Roadmap Agent]
+
     F --> J[(MongoDB)]
     G --> J
     H --> J
     I --> J
+
     C <--> K[(Redis Cache)]
+
     E --> L[LLM Provider]
 ```
 
-*Illustrative high-level view. The final service boundaries and data
-flows may evolve during development.*
+---
 
-## 🏗️ Architecture Goals
+## 🔄 Application Workflow
 
-IntervexaAI is being developed with the following engineering goals:
+1. User creates an account or signs in.
+2. User uploads a resume (optional).
+3. Resume Agent analyses the candidate's profile.
+4. Interview Agent conducts a personalised interview.
+5. Feedback Agent evaluates the interview.
+6. Roadmap Agent generates a personalised learning roadmap.
+7. User tracks preparation progress through the dashboard.
 
--   **Separation of concerns:** keep frontend, API, AI workflows, and
-    data responsibilities clearly organised.
--   **Independent services:** structure backend capabilities so services
-    can be developed and scaled independently where appropriate.
--   **Reliable AI workflows:** use explicit workflow states, validation,
-    and error handling for multi-step agent tasks.
--   **Performance:** use Redis selectively for caching suitable data and
-    expensive repeat operations.
--   **Security:** validate inputs, protect authenticated routes, manage
-    secrets through environment variables, and apply least-privilege
-    access.
--   **Deployment consistency:** use Docker to make service environments
-    reproducible.
--   **Observability:** build toward structured logs, health checks, and
-    service-level monitoring.
+---
 
-## 🚀 Getting Started
+## 🏗️ Project Architecture
 
-The exact setup commands may change as the repository structure is
-finalised. The following is a starting point; adjust paths and scripts
-to match your implementation.
+IntervexaAI follows a modular architecture designed for maintainability and scalability.
 
-### Prerequisites
-
--   Node.js (LTS recommended)
--   npm
--   MongoDB
--   Redis
--   Docker and Docker Compose (for containerised development)
--   Firebase project credentials
--   API credentials for your selected LLM provider
-
-### Installation
-
-``` bash
-# Clone the repository
-git clone https://github.com/yeasin-riyad/Multi-Agent-Ai-Platform-Microservices-Architecture.git
-
-# Enter the project directory
-cd intervexaAI
-```
-
-Install dependencies in the relevant frontend and backend directories.
-For example:
-
-``` bash
-cd frontend
-npm install
-
-cd ../backend
-npm install
-```
-
-### Environment Variables
-
-Create `.env` files in the relevant services. Do not commit real
-credentials.
-
-Example backend environment configuration (update variable names to
-match your code):
-
-``` env
-PORT=8000
-NODE_ENV=development
-
-MONGODB_URI=mongodb://127.0.0.1:27017/intervexaai
-REDIS_URL=redis://localhost:6379
-
-FRONTEND_URL=http://localhost:5173
-
-# Firebase Admin configuration
-FIREBASE_PROJECT_ID=
-FIREBASE_CLIENT_EMAIL=
-FIREBASE_PRIVATE_KEY=
-
-# LLM provider
-GROQ_API_KEY=
-# Add other provider keys only if your implementation uses them.
-```
-
-Example frontend environment configuration:
-
-``` env
-VITE_API_BASE_URL=http://localhost:8000
-
-# Add Firebase web configuration using your project's actual variable names.
-VITE_FIREBASE_API_KEY=
-VITE_FIREBASE_AUTH_DOMAIN=
-VITE_FIREBASE_PROJECT_ID=
-VITE_FIREBASE_APP_ID=
-```
-
-> Keep `.env` files, private keys, service-account JSON files, and API
-> tokens out of version control. Add them to `.gitignore`. Never expose
-> server-side secrets through frontend environment variables.
-
-### Run Locally
-
-Start MongoDB and Redis, then run each application service using its own
-development script. Example:
-
-``` bash
-# Terminal 1 — backend
-cd backend
-npm run dev
-
-# Terminal 2 — frontend
-cd frontend
-npm run dev
-```
-
-If your project uses Docker Compose, start the configured services with:
-
-``` bash
-docker compose up --build
-```
-
-The commands above are illustrative. Use the actual service directories
-and scripts defined in your repository.
-
-## 🗂️ Suggested Repository Structure
-
-This is an example structure for a multi-service implementation, not a
-claim about the current repository layout.
-
-``` text
-intervexaAI/
+```text
+IntervexaAI/
+│
 ├── frontend/
 │   ├── src/
 │   │   ├── components/
 │   │   ├── features/
 │   │   ├── pages/
+│   │   ├── hooks/
 │   │   └── services/
+│   │
 │   └── package.json
 │
 ├── backend/
@@ -368,6 +222,7 @@ intervexaAI/
 │   │   ├── routes/
 │   │   ├── services/
 │   │   └── server.js
+│   │
 │   └── package.json
 │
 ├── services/
@@ -377,7 +232,6 @@ intervexaAI/
 │   └── roadmap-agent/
 │
 ├── docs/
-│   ├── assets/
 │   └── screenshots/
 │
 ├── docker-compose.yml
@@ -385,82 +239,194 @@ intervexaAI/
 └── README.md
 ```
 
-## 🔒 Security Notes
+*This is a suggested structure; adjust it to match the actual repository.*
 
--   Never commit `.env` files, Firebase service-account credentials, or
-    API keys.
--   Verify Firebase ID tokens on the server before trusting
-    authenticated user information.
--   Validate and sanitise incoming request data.
--   Apply authorisation checks to user-owned resources.
--   Configure CORS with explicitly trusted frontend origins.
--   Use secure, HTTP-only cookies where cookie-based sessions are used.
--   Apply upload size limits and validate file type and content for
-    resume uploads.
--   Add rate limiting and sensible request timeouts to public APIs.
--   Avoid logging passwords, tokens, private keys, or sensitive resume
-    content.
+---
 
-## 🧪 Testing
+## 🚀 Getting Started
 
-Testing coverage will be documented as the project test suites are
-added. Recommended areas include:
+Follow these instructions to run the project locally.
 
--   Authentication and authorisation
--   API request validation and error handling
--   Resume upload and parsing
--   Agent workflow state transitions
--   Interview session lifecycle
--   Feedback and roadmap generation
--   Redis cache behaviour and invalidation
--   Service health checks and integration flows
+### Prerequisites
 
-## 🗺️ Roadmap
+Make sure you have installed:
 
--   [x] Define the core product concept and technology stack
--   [ ] Complete authentication and user management
--   [ ] Build the AI Interview Agent workflow
--   [ ] Build resume upload and analysis
--   [ ] Generate structured interview feedback
--   [ ] Generate personalised learning roadmaps
--   [ ] Complete dashboard and progress views
--   [ ] Add comprehensive automated tests
--   [ ] Containerise services with Docker Compose
--   [ ] Configure production deployment on AWS
--   [ ] Add monitoring, logging, and performance metrics
+- Node.js
+- npm
+- MongoDB
+- Redis
+- Docker (optional)
+- Firebase Project
+- LLM Provider API Key
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/yeasin-riyad/Multi-Agent-Ai-Platform-Microservices-Architecture.git
+
+cd Multi-Agent-Ai-Platform-Microservices-Architecture
+```
+
+### 2. Install Dependencies
+
+Frontend:
+
+```bash
+cd frontend
+npm install
+```
+
+Backend:
+
+```bash
+cd backend
+npm install
+```
+
+### 3. Configure Environment Variables
+
+Create a `.env` file inside the backend directory.
+
+```env
+PORT=8000
+NODE_ENV=development
+
+MONGODB_URI=mongodb://127.0.0.1:27017/intervexaai
+
+REDIS_URL=redis://localhost:6379
+
+FRONTEND_URL=http://localhost:5173
+
+# Firebase Admin
+FIREBASE_PROJECT_ID=
+FIREBASE_CLIENT_EMAIL=
+FIREBASE_PRIVATE_KEY=
+
+# AI Provider
+GROQ_API_KEY=
+```
+
+Create a frontend `.env` file:
+
+```env
+VITE_API_BASE_URL=http://localhost:8000
+
+VITE_FIREBASE_API_KEY=
+VITE_FIREBASE_AUTH_DOMAIN=
+VITE_FIREBASE_PROJECT_ID=
+VITE_FIREBASE_APP_ID=
+```
+
+**Important:** Never commit your `.env` files, Firebase service account credentials, or API keys to GitHub.
+
+### 4. Run Backend
+
+```bash
+cd backend
+npm run dev
+```
+
+### 5. Run Frontend
+
+Open another terminal:
+
+```bash
+cd frontend
+npm run dev
+```
+
+### 6. Run with Docker
+
+If Docker Compose is configured:
+
+```bash
+docker compose up --build
+```
+
+---
+
+## 🔒 Security
+
+IntervexaAI aims to follow modern application security practices:
+
+- Firebase token verification.
+- Protected API endpoints.
+- Secure HTTP-only authentication cookies where applicable.
+- Environment-based secret management.
+- Input validation and sanitisation.
+- Resume upload validation.
+- CORS configuration.
+- User-level resource authorisation.
+- API rate limiting.
+
+---
+
+## 🗺️ Development Roadmap
+
+- [x] Project concept and technology selection
+- [ ] Secure authentication system
+- [ ] AI Interview Agent
+- [ ] Resume Agent
+- [ ] AI Feedback Agent
+- [ ] Personalised Roadmap Agent
+- [ ] Modern dashboard
+- [ ] Redis caching integration
+- [ ] Docker integration
+- [ ] Microservices deployment
+- [ ] AWS deployment
+- [ ] Monitoring and logging
+- [ ] Automated testing
+
+---
 
 ## 🤝 Contributing
 
-Contributions, suggestions, and bug reports are welcome.
+Contributions, suggestions, and improvements are welcome!
 
-1.  Fork the repository.
-2.  Create a feature branch: `git checkout -b feature/your-feature`.
-3.  Commit your changes: `git commit -m "feat: add your feature"`.
-4.  Push your branch: `git push origin feature/your-feature`.
-5.  Open a pull request with a clear description of the changes.
+1. Fork the repository.
+2. Create a new branch.
 
-Please avoid including secrets, personal data, or production credentials
-in issues and pull requests.
+```bash
+git checkout -b feature/your-feature
+```
+
+3. Commit your changes.
+
+```bash
+git commit -m "feat: add new feature"
+```
+
+4. Push your branch.
+
+```bash
+git push origin feature/your-feature
+```
+
+5. Open a Pull Request.
+
+---
 
 ## 📄 License
 
-No license has been specified yet. All rights are reserved by default
-until a license is added to this repository. If you intend to make the
-project open source, add a `LICENSE` file with the license you choose.
+A license has not yet been specified for this project. All rights remain reserved until a license is added.
+
+---
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Yeasin Mazumder**
 
--   GitHub: [@your-username](https://github.com/yeasin-riyad)
--   LinkedIn: [Your LinkedIn](linkedin.com/in/mdyeasinmazumder)
+- GitHub: [@yeasin-riyad](https://github.com/yeasin-riyad)
+- LinkedIn: [Yeasin Mazumder](https://www.linkedin.com/in/mdyeasinmazumder)
 
-------------------------------------------------------------------------
+---
 
-```{=html}
-<p align="center">
-```
-Built with ❤️ to make interview preparation smarter with AI.
-```{=html}
-</p>
-```
+<div align="center">
+
+  ### ⭐ Support IntervexaAI
+
+  If you find this project interesting, consider giving it a star!
+
+  **Built with ❤️ and AI to make interview preparation smarter.**
+
+</div>
